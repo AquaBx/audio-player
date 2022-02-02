@@ -13,8 +13,8 @@ let list_music = [{
     {
         titre: "Enemy",
         artiste: "Imagine Dragons",
-        thumb: "https://raw.githubusercontent.com/AquaBx/codepen/master/enemy-imagine.jpg",
-        src: "https://raw.githubusercontent.com/AquaBx/codepen/master/enemy-imagine.mp3",
+        thumb: "./enemy-imagine.webp",
+        src: "./enemy-imagine.mp3",
     }
 ];
 
