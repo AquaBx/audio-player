@@ -1,0 +1,55 @@
+<head>
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, width=device-width">
+</head>
+<body>
+	<div class="container">
+		<div class="backblur"></div>
+		<div class="player">
+			<img id="thumbnail" style="width:60%;" src="">
+			<h3 id="title"></h3>
+			<input id="position" style="width:80%" value="0" max="100" min="0" type="range">
+		</button>
+		<div style="display: flex;">
+			<button id="previous">
+				<svg viewBox="0 0 448 512" width="30" fill="white" title="step-backward">
+					<path d="M64 468V44c0-6.6 5.4-12 12-12h48c6.6 0 12 5.4 12 12v176.4l195.5-181C352.1 22.3 384 36.6 384 64v384c0 27.4-31.9 41.7-52.5 24.6L136 292.7V468c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12z" />
+				</svg>
+			</button>
+			<button id="play">
+				<svg viewBox="0 0 448 512" id="ico-play" width="50" title="play">
+					<path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" fill="white"/>
+				</svg>
+				<svg class="hide" viewBox="0 0 448 512" id="ico-pause" width="50" fill="white" title="pause">
+					<path d="M144 479H48c-26.5 0-48-21.5-48-48V79c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zm304-48V79c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v352c0 26.5 21.5 48 48 48h96c26.5 0 48-21.5 48-48z" />
+				</svg>
+			</button>
+			<button id="next">
+				<svg viewBox="0 0 448 512" width="30" fill="white" title="step-forward">
+					<path d="M384 44v424c0 6.6-5.4 12-12 12h-48c-6.6 0-12-5.4-12-12V291.6l-195.5 181C95.9 489.7 64 475.4 64 448V64c0-27.4 31.9-41.7 52.5-24.6L312 219.3V44c0-6.6 5.4-12 12-12h48c6.6 0 12 5.4 12 12z" />
+				</svg>
+			</button>
+		</div>
+		<div style="display: flex;">
+			<button id="shuffle">
+				<svg width="30" fill="white" viewBox="0 0 512 512" width="100" title="random">
+					<path d="M504.971 359.029c9.373 9.373 9.373 24.569 0 33.941l-80 79.984c-15.01 15.01-40.971 4.49-40.971-16.971V416h-58.785a12.004 12.004 0 0 1-8.773-3.812l-70.556-75.596 53.333-57.143L352 336h32v-39.981c0-21.438 25.943-31.998 40.971-16.971l80 79.981zM12 176h84l52.781 56.551 53.333-57.143-70.556-75.596A11.999 11.999 0 0 0 122.785 96H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12zm372 0v39.984c0 21.46 25.961 31.98 40.971 16.971l80-79.984c9.373-9.373 9.373-24.569 0-33.941l-80-79.981C409.943 24.021 384 34.582 384 56.019V96h-58.785a12.004 12.004 0 0 0-8.773 3.812L96 336H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h110.785c3.326 0 6.503-1.381 8.773-3.812L352 176h32z" />
+				</svg>
+			</button>
+			<button id="restart">
+				<svg viewBox="0 0 512 512" width="30" fill="white"  title="redo">
+					<path d="M500.33 0h-47.41a12 12 0 0 0-12 12.57l4 82.76A247.42 247.42 0 0 0 256 8C119.34 8 7.9 119.53 8 256.19 8.1 393.07 119.1 504 256 504a247.1 247.1 0 0 0 166.18-63.91 12 12 0 0 0 .48-17.43l-34-34a12 12 0 0 0-16.38-.55A176 176 0 1 1 402.1 157.8l-101.53-4.87a12 12 0 0 0-12.57 12v47.41a12 12 0 0 0 12 12h200.33a12 12 0 0 0 12-12V12a12 12 0 0 0-12-12z" />
+				</svg>
+			</button>
+		</div>
+		<div>
+			<button id="sound_ico">
+				<svg width="30" fill="white" style="vertical-align: middle;" viewBox="0 0 576 512" width="100">
+					<path d="M215 71l-89 89H24a24 24 0 0 0-24 24v144a24 24 0 0 0 24 24h102.06L215 441c15 15 41 4.47 41-17V88c0-21.47-26-32-41-17z"/>
+				</svg>
+			</button>
+			<input id="volume" value="15" max="100" min="0" type="range">
+		</div>
+	</div>
+</div>
+  <h3 style="color:black"> arrière plan adaptatif : <input id="backinput" checked type="checkbox"></h3>
+</body>
