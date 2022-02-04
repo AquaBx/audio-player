@@ -143,14 +143,6 @@ player.onended = (function() {
     document.querySelector("#ico-play").classList.add('hide');
 })
 
-document.querySelector("#backinput").onchange = (function() {
-    if (document.querySelector("#backinput").checked) {
-        document.querySelector(".backblur").style.display = "block";
-    } else {
-        document.querySelector(".backblur").style.display = "none";
-    }
-})
-
 let last_volume
 
 document.querySelector("#sound_ico").onclick = (function() {
